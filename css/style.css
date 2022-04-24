@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+    font-family: "Noto Serif Japanese";
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+header {
+    padding: 25px 50px;
+}
+
+main {
+    padding: 25px 50px;
+}
+
+main article {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main article p {
+    margin-bottom: 50px;
+}
+
+main article div {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+main article img {
+    width: 100%;
+}
+
+footer {
+    padding: 25px;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 896px) {
+    header {
+        padding: 25px 25px;
+    }
+
+    main {
+        padding: 25px 25px;
+    }
+
+    main article {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main article div p {
+        font-size: 0.5em;
+    }
+}
