@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #fff;
     color: #000;
-    font-family: "Noto Serif Japanese";
+    font-family: 'Noto Serif Japanese', serif;
 }
 
 body a {
@@ -15,20 +15,34 @@ body a {
 }
 
 header {
-    padding: 25px 50px;
+    padding: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
 }
 
 main {
-    padding: 25px 50px;
+    margin: 0;
 }
 
 main article {
     width: 70%;
     margin: 0 auto;
+    padding-top: 25px;
+}
+
+main article h2 {
+    margin: 0;
 }
 
 main article p {
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 main article div {
@@ -38,6 +52,11 @@ main article div {
 
 main article img {
     width: 100%;
+}
+
+main article div p {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -50,19 +69,22 @@ footer p {
 
 @media screen and (max-width: 896px) {
     header {
-        padding: 25px 25px;
+        padding: 20px;
+    }
+
+    header p {
+        font-size: 0.8em;
     }
 
     main {
-        padding: 25px 25px;
+        padding: 20px;
     }
 
     main article {
         width: 100%;
-        margin: 0 auto;
     }
 
     main article div p {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
