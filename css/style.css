@@ -107,4 +107,8 @@ footer p {
     main article div p {
         font-size: 0.8em;
     }
+
+    #past_article {
+        width: 100%;
+    }
 }
