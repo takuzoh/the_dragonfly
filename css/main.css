@@ -79,6 +79,11 @@ main article div p {
     padding-bottom: 10px;
 }
 
+#past_article ul li a span {
+    display: inline-block;
+    width: 8em;
+}
+
 footer {
     padding: 25px;
 }
